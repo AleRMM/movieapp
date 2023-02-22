@@ -12,7 +12,7 @@ function App() {
 
   return (
     <ApolloProvider client={client}>
-
+      <Login />
     </ApolloProvider>
   )
 }
